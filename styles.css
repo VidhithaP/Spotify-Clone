@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.body{
+    background-color: black;
+    color: white;
+}
+.left{
+    width:25vw;
+    padding: 10px;
+    
+}
+.right{
+    width:75vw;
+    
+    
+}
+.home ul li{
+    display: flex;
+    width:14px;
+    list-style: none;
+    gap:15px;
+    padding-top: 14px;
+}
+.heading{
+    display: flex;
+    width:100%;
+    gap:15px;
+    font-size: 10px;
+    align-items: center;
+    padding:23px 14px;
+}
+.heading img{
+    width:20px;
+
+}
+.library{
+    min-height: 90vh;
+    position: relative;
+}
+
+.footer{
+    display:flex;
+    font-size: 10px;
+    color:grey;
+    gap:13px;
+    position: absolute;
+    bottom: 0;
+
+}
+.footer a{
+    color: grey;
+}
+.right{
+    padding: 20px;
+    margin-top:15px;
+    position: relative;
+    
+  
+}
+.nav{
+    display: flex;
+    justify-content:space-between;
+}
+.nav img{
+    width: 20px;
+    
+}
+.buttons :nth-child(2){
+    background-color: white;
+    color:black;
+}
+
+.buttons button{
+    width:80px;
+    height: 30px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: rgb(197, 192, 192);
+    border-radius: 30px;
+    cursor: pointer;
+}
+.spotifyPlaylists{
+    padding:16px;
+}
+.cardcontainer{
+    display: flex;
+    gap:20px;
+    flex-wrap: wrap;
+    margin: 30px;
+    max-height:70vh;
+    overflow-y:scroll;
+
+}
+.spotifyPlaylists .card{
+    width:200px;
+    padding:13px;
+    border-radius: 5px;
+    background-color: grey;
+    position: relative;
+    
+    
+
+}
+.card > *{
+    padding-top:3px;
+}
+.card img{
+    width:100%;
+    object-fit: contain;
+}
+.play{
+    width: 28px;
+    height: 28px;
+    background-color: #1fdf64;
+    border-radius: 50%;
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 88px;
+    right: 17px;
+   
+}
+.signupbtn:hover{
+    color:white;
+    font-size: 0.9rem;
+}
+.loginbtn:hover{
+    font-weight: bold;
+}
+.playbar{
+    position: absolute;
+    bottom: 10px;
+    background-color:#68b768;
+    width: 900px;
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
